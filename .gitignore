@@ -1,0 +1,52 @@
+# 依赖目录
+node_modules/
+
+# 构建产物
+dist/
+build/
+*.local
+README.md
+# 环境变量文件（包含敏感信息）
+!.env
+!.env.*
+!.env.example
+
+# 编辑器和 IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# Chrome 扩展开发相关
+.crx
+
+# 测试覆盖率
+coverage/
+
+# 错误日志
+error.log
+
+dist.zip

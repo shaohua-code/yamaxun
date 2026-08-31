@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "电商商品采集与上架助手",
+  "version": "1.0.0",
+  "description": "采集电商商品资料、图片和视频，编辑并生成 Amazon US Listing",
+  "permissions": ["activeTab", "contextMenus", "storage", "scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "icon/logo.png",
+    "48": "icon/logo.png",
+    "128": "icon/logo.png"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "图片素材采集助手",
+    "default_icon": {
+      "16": "icon/logo.png",
+      "32": "icon/logo.png",
+      "48": "icon/logo.png",
+      "128": "icon/logo.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background/index.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    { "matches": ["<all_urls>"], "js": ["src/content/index.js"] }
+  ],
+  "web_accessible_resources": [
+    { "resources": ["src/batch/*", "src/workspace/*"], "matches": ["<all_urls>"] }
+  ]
+}
