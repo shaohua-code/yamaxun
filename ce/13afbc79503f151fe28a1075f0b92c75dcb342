@@ -1,0 +1,55 @@
+backend/requirements.txt
+  s_8369e8955805f2::t_d9812b53b7d40f 6
+backend/app/config.py
+  s_8369e8955805f2::t_49cf38ba9a73aa 1-3,13,15-16,18,20,22,24,31
+  s_8369e8955805f2::t_991f8fc78f2493 4,7-9
+  s_8369e8955805f2::t_688b1c9876bf1e 26-28
+  s_8369e8955805f2::t_c08aaf737092e2 10
+backend/app/models.py
+  s_8369e8955805f2::t_7c44303c4d9706 1-7,14,20,22,24,26,28,30,32,34,36,38,40,46,49,51,53,55,57,63,66,68,70,72
+backend/app/schemas.py
+  s_8369e8955805f2::t_ac69dec99d8528 1-4,10-11,13,15,17,19,21,23,25,27,32-33,35,37,39,41,46-47,49,51
+backend/app/main.py
+  s_8369e8955805f2::t_c85cd62fc260ad 1-6,15-18,21-24,28,34,36-37,39,43-44,50-53,56,63,70,75,80,86,93-96,104,107,110,114,118,123,125,132-134,139,146-147,150
+backend/app/db.py
+  s_8369e8955805f2::t_6ef4e5330f50b4 1-3,10,15-16,18-19,23-24
+backend/.env.example
+  h_afe809c6d67a38 4-6
+backend/.env
+  s_8369e8955805f2::t_821c815499bb49 3
+  h_afe809c6d67a38 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "ce13afbc79503f151fe28a1075f0b92c75dcb342",
+  "prompts": {},
+  "humans": {
+    "h_afe809c6d67a38": {
+      "author": "刘少华 <1377250790@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_8369e8955805f2": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a95462a9cd3e0477c71c9a6",
+        "model": "glm-5.3"
+      },
+      "human_author": "刘少华 <1377250790@qq.com>",
+      "custom_attributes": {
+        "operation_id": "6a9551f29cd3e0477c71ca98",
+        "client_type": "ide",
+        "tool_use_id": "6a9551f29cd3e0477c71ca98",
+        "source_scene": "agent",
+        "dedupe_key": "6a95462a9cd3e0477c71c9a6:6a9551f29cd3e0477c71ca98:afterEdit:bd0a3e4b",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "external_session_id": "6a95462a9cd3e0477c71c9a6",
+        "session_id": "6a95462a9cd3e0477c71c9a6",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "tool_type": "builtin"
+      }
+    }
+  }
+}
